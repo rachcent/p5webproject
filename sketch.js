@@ -1,15 +1,19 @@
-let button;
 
+let button;
 
 function setup() {
 	// make canvas full screen
 	createCanvas(windowWidth, windowHeight);
 	background(0);
 	button = createButton('Deactivate Account');
-	button.position(19, 19);
-	button.mousePressed(buttonChange);
+  button.position(input.x + input.width, 65);
+	button.mousePressed(changeBG);
 }
 
+function changeBG() {
+let val = random(255);
+background(val);
+}
 
 
 
