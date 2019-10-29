@@ -1,14 +1,29 @@
-let button;
-
+var button;
+let manyButtons=[];
 
 function setup() {
 	// make canvas full screen
 	createCanvas(windowWidth, windowHeight);
-	background(0);
-	button = createButton('Deactivate Account');
-	button.position(19, 19);
-	button.mousePressed(buttonChange);
+	button=createButton('deactivate your account');
+	button.mousePressed(button2);
+
+	manyButtons=createButton('are you sure?');
+
+
 }
+
+for (let i=0; i < 100; i++){
+	manyButtons[i]=new manyButtons
+}
+function button2() {
+	 button2=createButton('are you sure?')(button3);
+}
+
+function mousePressed(){
+
+}
+
+
 
 
 
@@ -19,5 +34,8 @@ function draw() {
 	// adding clear() to the draw loop will clear each frame, erasing object trails
 	// clear();
 
-	ellipse(mouseX, mouseY, 100);
+
+
+
+
 }
