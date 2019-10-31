@@ -1,6 +1,22 @@
+
+.row {
+  display: flex;
+}
+.center {
+  margin: auto;
+   width: 60%;
+   border: 3px solid #3D87F9;
+   padding: 10px;
+}
+.button{
+  text-align: center;
+}
+
+
 body {
   margin: 0;
   padding: 0;
+  background-color: black;
   font-family: "Lucida Console", Monaco, monospace;
   line-height: 1.5;
   text-align: center;
