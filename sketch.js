@@ -20,6 +20,7 @@ function setup() {
 	nabutton.position(center);
 }
 
+
 function randomLocation() {
 	 x=random(windowWidth)
 	 y=random(windowHeight)
@@ -35,17 +36,11 @@ function randomLocation() {
 
 
 function draw() {
-	// adding clear() to the draw loop will clear each frame, erasing object trails
-	// clear();
+	noStroke();
+	fill(255);
+	textAlign(CENTER);
+	text("ioegnoingeioseginsigenpseingopsegpnseopgnosengopegsegsgsegseg", 400, 500);
 
-		if (nabutton.mouseIsPressed) {
-	    stroke(white);
-	  }
-	  else {
-	    noStroke(white);
-	  }
-	  textSize(12 + (mouseX / width)*72);
-	  text("Attention, please.", 50, 200);
 
 
 
