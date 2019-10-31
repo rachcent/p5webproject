@@ -3,6 +3,7 @@ var x=500;
 var y=500;
 var nabutton;
 
+let button;
 
 function setup() {
 	// make canvas full screen
@@ -20,6 +21,10 @@ function setup() {
 	nabutton.position(center);
 }
 
+function changeBG() {
+let val = random(255);
+background(val);
+}
 
 function randomLocation() {
 	 x=random(windowWidth)
