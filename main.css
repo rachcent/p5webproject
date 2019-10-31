@@ -37,7 +37,7 @@ canvas {
   margin: auto;
   top: 0;
   left: 0;
-  position: absolute;
+  position:absolute;
   /* uncomment next line to position the canvas BEHIND the HTML */
   z-index: -1;
 }

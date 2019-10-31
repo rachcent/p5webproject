@@ -35,10 +35,7 @@ function randomLocation() {
 
 
 function draw() {
-	noStroke();
-	fill(255);
-	textAlign(CENTER);
-	text("ioegnoingeioseginsigenpseingopsegpnseopgnosengopegsegsgsegseg", 400, 500);
+
 
 
 
